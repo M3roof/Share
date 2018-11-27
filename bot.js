@@ -12,12 +12,12 @@ client.on("guildMemberAdd", member => {
   member.createDM().then(function (channel) {
   return channel.send(` 
 
-***!~[*** **Quietnees Server** | **حياككء الله بالسيرفر اتمني ينال اعجابك** ***]~!***
+***!~[*** **Quietnees Server** | **حياككء الله يوجد انفايت ريوارد رهيب** ***]~!***
 
                                :arrow_down_small:!~[ Link | الرابط ]~!:arrow_down_small: 
-                              https://discord.gg/UhnYypM
+                              https://discord.gg/mbM8z3A
 
-                              **Username** :  ${member}
+                              **Username** : ${member}
 `) 
 }).catch(console.error)
 })
