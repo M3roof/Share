@@ -15,7 +15,7 @@ client.on("guildMemberAdd", member => {
 ***!~[*** **Quietnees Server** | **حياككء الله يوجد انفايت ريوارد رهيب** ***]~!***
 
                                :arrow_down_small:!~[ Link | الرابط ]~!:arrow_down_small: 
-                              https://discord.gg/mbM8z3A
+                              https://discord.gg/QX9JDCF
 
                               **Username** : ${member}
 `) 
