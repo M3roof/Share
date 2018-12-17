@@ -8,23 +8,40 @@ client.on('ready', () => {
 
 
 
-client.on("guildMemberAdd", member => {
-  member.createDM().then(function (channel) {
-  return channel.send(` 
 
-***!~[*** **Quietnees Server** | **حياككء الله يوجد انفايت ريوارد رهيب** ***]~!***
 
-                               :arrow_down_small:!~[ Link | الرابط ]~!:arrow_down_small: 
-                              https://discord.gg/QX9JDCF
-
-                              **Username** : ${member}
-`) 
-}).catch(console.error)
+client.on('ready', async() => {
+var server = "516364082127831040"; // ايدي السررفر
+var channel = "524038276999413775";//ايدي الروم
+    setInterval(()=>{
+    client.guilds.get(server).channels.get(channel).send('**Dream , Dream , Dream , Dream , Dream , Dream , Dream , Dream , Dream , Dream , Dream , Dream , Dream , Dream , Dream , Dream , Dream , Dream , **')
+    },305);
 })
 
 
 
+ 
 
+
+
+    client.on('message', message => {
+        var prefix = "1";
+        if (message.author.bot) return;
+        if (!message.content.startsWith(prefix)) return;
+      
+        let command = message.content.split(" ")[0];
+        command = command.slice(prefix.length);
+      
+      
+      let args = message.content.split(" ").slice(1);
+      let x = args.join(" ")
+        if(message.content.startsWith(prefix + 'say')) {
+            message.channel.send(''+x);
+                message.delete(999)
+        }
+        
+       
+      });
 
 
 
