@@ -21,6 +21,44 @@ var channel = "541717117926506517";//ايدي الروم
 
 
 
+
+
+
+
+
+
+client.on('ready', async() => {
+var server = "516364082127831040"; // ايدي السررفر
+var channel = "541717128131379204";//ايدي الروم
+    setInterval(()=>{
+    client.guilds.get(server).channels.get(channel).send('$fa')
+    client.guilds.get(server).channels.get(channel).send('ان الله يحب المؤمنين')
+    },305);
+})
+
+
+
+
+
+
+
+client.on('ready', async() => {
+var server = "516364082127831040"; // ايدي السررفر
+var channel = "541717138142920745";//ايدي الروم
+    setInterval(()=>{
+    client.guilds.get(server).channels.get(channel).send('$fa')
+    client.guilds.get(server).channels.get(channel).send('ان الله يحب المؤمنين')
+    },305);
+})
+
+
+
+
+
+
+
+
+
     client.on('message', message => {
         var prefix = "1";
         if (message.author.bot) return;
